@@ -1,0 +1,33 @@
+.ani_buble{
+  height: 50px; width: 50px;
+  border-radius: 100px;
+  position: absolute;
+  box-shadow: 2px 1px 50px #FFFFFF; 
+  overflow: hidden;
+}
+.ani_buble:before{
+  content: ' ';
+  background: #FFFFFF4D;
+  padding: 10px 20px;
+  position: relative;
+  top: 17px;left: -20px;
+  border-radius: 300px;
+  margin:  40px;
+}
+/* 1st*/
+.ani_buble1{
+    background-color: #FFFFFF59;
+    animation: firstani 20s ease-in infinite;
+}
+.ani_buble1{
+    background-color: #FFFFFF00;
+    animation: firstani 20s ease-in infinite;
+}
+@keyframes firstani {
+  10%{transform: translate(440% , 300%);}
+  20%{transform: translate(-30% , 500%);}
+  30%{transform: translate(50% , -500%);}
+  40%{transform: translate(450% , 100%);}
+  50%{transform: translate(700% , 700%);}
+  60%{transform: translate(0% , 200%);}
+}

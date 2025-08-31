@@ -1,0 +1,138 @@
+ /* service page*/
+ nav{
+   z-index: 959;
+ }
+  .box-container{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 50px  10px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .box-container  .box-con{
+      border: 1px solid #D8D8D8;
+      margin: 5px 5px;
+      padding: 2px  2px;
+      height: 250px;
+      width: 290px;
+      flex-wrap: wrap;
+      overflow: hidden;
+      color: #000000;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #E5E5E5;
+    }
+    .box-con p{
+      opacity: 0;
+      height: 300px;
+      padding: 20px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .box-con:hover p{
+      opacity: 1;
+      margin: -230px  auto;
+      transition: .5s ease-in-out;
+      background: #00F5FF;
+      position: relative;
+      overflow-x: auto;
+      z-index: 12;
+    }
+    h1{
+      font-size: 20px;
+      text-align: center;
+    }
+    .box-con img{
+      display: flex;
+      height: 100px;
+      width: 100px;
+      margin: 50px auto;
+      text-align: center;
+    }
+    
+        /* massage page*/
+     
+    /*last page*/
+    footer {
+      background-color: #303030;
+      overflow: hidden;
+      margin: auto;
+      display: flex;
+      color: #FFFFFF;
+      flex-wrap: wrap;
+    }
+    
+      footer ul {
+      display: flex;
+    }
+
+    footer li {
+      list-style: none;
+      border-radius: 50%;
+      padding: 5px  2px;
+    }
+    footer a {
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+    /*all box */
+    .box1, .box2, .box4 {
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+    }
+    
+    .box2{
+      flex-grow: 2;
+    }
+    /*style for box 4 icon button*/
+      .fa {
+      font-size: 20px;
+      background-color: #7A7A7A;
+      border-radius: 50%;
+      padding: 10px 10px;
+    }
+     .c div{
+      padding: 4px 1px;
+    }
+    .c div a::before{
+      content: "";
+      background-color: #99A1F3;
+      margin: 0px auto;
+      position: relative;
+      top: 20px;
+      width: 9px;
+      height: 1px;
+      display: none;
+      transition: all 2s ease-in-out;
+    }
+    div:hover  div a::before {
+      display: flex;
+      width: 80px;
+      transition: all 2s ease-in-out;
+    }
+    .box4 {
+      flex-wrap: wrap;
+      margin: auto;
+    }
+
+    .box4 ul li {
+      flex-wrap: wrap;
+      margin: 15px 5px;
+    }
+
+    .fa-facebook-f {
+      padding: 10px 14px;
+    }
+
+    .copyright {
+      text-align: center;
+      background-color: #303030;
+      color: #FFFFFF;
+      padding: 20px 0;
+    }
+
+    .copyright p {
+      margin: 0;
+    }
